@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>京东商品详情</title>
+		<link rel="stylesheet" type="text/css" href="css/product.css" />
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css" />
+	</head>
+
+	<body>
+		<div class="part_one">
+			<div class="container clearfix">
+				<ul class="left">
+					<li>
+						<i class="iconfont">&#xe61a;</i>
+						<a href="javascript:;">京东首页</a>
+					</li>
+					<li id="jd_address" class="adress" name="show_hide">
+						<i class="iconfont">&#xe734;</i>
+						<a href="javascript:;" id="provinces">山东</a>
+						<div id="jd_address_items" class="address_hide clearfix" style="display: none;">
+							<ul class="item">
+								<li>
+									<a href="javascript:;">北京</a>
+								</li>
+								<li>
+									<a href="javascript:;">上海</a>
+								</li>
+								<li>
+									<a href="javascript:;">天津</a>
+								</li>
+								<li>
+									<a href="javascript:;">重庆</a>
+								</li>
+								<li>
+									<a href="javascript:;">河北</a>
+								</li>
+								<li>
+									<a href="javascript:;">山西</a>
+								</li>
+								<li>
+									<a href="javascript:;">河南</a>
+								</li>
+								<li class="abc">
+									<a href="javascript:;">山东</a>
+								</li>
+								<li>
+									<a href="javascript:;">江苏</a>
+								</li>
+								<li>
+									<a href="javascript:;">广东</a>
+								</li>
+								<li>
+									<a href="javascript:;">广西</a>
+								</li>
+								<li>
+									<a href="javascript:;">湖南</a>
+								</li>
+								<li>
+									<a href="javascript:;">湖北</a>
+								</li>
+								<li>
+									<a href="javascript:;">安徽</a>
+								</li>
+								<li>
+									<a href="javascript:;">浙江</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+				<ul class="right">
+					<li class="nav1">
+						<a href="javascript:;">你好,请登录</a>
+						&nbsp;&nbsp;
+						<a href="javascript:;" class="a2">免费注册</a>
+					</li>
+					<li class="vertical"></li>
+					<li>
+						<a href="javascript:;">我的订单</a>
+					</li>
+					<li class="vertical"></li>
+					<li id="my_jd" class="jd_all" name="show_hide">
+						<a href="javascript:;">我的京东</a>
+						<i class="iconfont">&#xe613;</i>
+						<div id="my_jd_items" class="nav_dl" style="display: none;">
+							<ul class="clearfix">
+								<li>
+									<a href="javascript:;">待处理订单</a>
+								</li>
+								<li>
+									<a href="javascript:;">消息</a>
+								</li>
+								<li>
+									<a href="javascript:;">返修退换货</a>
+								</li>
+								<li>
+									<a href="javascript:;">我的问答</a>
+								</li>
+								<li>
+									<a href="javascript:;">降价商品</a>
+								</li>
+								<li>
+									<a href="javascript:;">我的关注</a>
+								</li>
+							</ul>
+							<div></div>
+							<ul class="clearfix">
+								<li>
+									<a href="javascript:;">我的京东</a>
+								</li>
+								<li>
+									<a href="javascript:;">我的优惠券</a>
+								</li>
+								<li>
+									<a href="javascript:;">我的白条</a>
+								</li>
+								<li>
+									<a href="javascript:;">我的理财</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="vertical"></li>
+					<li>
+						<a href="javascript:;">京东会员</a>
+					</li>
+					<li class="vertical"></li>
+					<li id="jd_enterprise" class="jd_all" name="show_hide">
+						<a href="javascript:;">企业采购</a>
+						<i class="iconfont">&#xe613;</i>
+						<div id="jd_enterprise_items" class="nav_item" style="display: none;">
+							<ul>
+								<li>
+									<a href="javascript:;">企业购</a>
+								</li>
+								<li>
+									<a href="javascript:;">商用场景馆</a>
+								</li>
+								<li>
+									<a href="javascript:;">工业品</a>
+								</li>
+								<li>
+									<a href="javascript:;">礼品卡</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="vertical"></li>
+					<li id="jd_serve" class="jd_all" name="show_hide">
+						<a href="javascript:;">客户服务</a>
+						<i class="iconfont">&#xe613;</i>
+						<div id="jd_serve_items" class="nav_item2" style="display: none;">
+							<h3>客户</h3>
+							<ul>
+								<li>
+									<a href="havascript:;">帮助中心</a>
+								</li>
+								<li>
+									<a href="havascript:;">售后服务</a>
+								</li>
+								<li>
+									<a href="havascript:;">在线客服</a>
+								</li>
+								<li>
+									<a href="havascript:;">意见建议</a>
+								</li>
+								<li>
+									<a href="havascript:;">电话客服</a>
+								</li>
+								<li>
+									<a href="havascript:;">客服邮箱</a>
+								</li>
+								<li>
+									<a href="havascript:;">金融质询</a>
+								</li>
+								<li>
+									<a href="havascript:;">全球售客服</a>
+								</li>
+							</ul>
+							<div></div>
+							<h3>商户</h3>
+							<ul>
+								<li>
+									<a href="javascript:;">合作招商</a>
+								</li>
+								<li>
+									<a href="javascript:;">成长中心</a>
+								</li>
+								<li>
+									<a href="javascript:;">商家后台</a>
+								</li>
+								<li>
+									<a href="javascript:;">京麦工作台</a>
+								</li>
+								<li>
+									<a href="javascript:;">商家帮助</a>
+								</li>
+								<li>
+									<a href="javascript:;">规则平台</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="vertical"></li>
+					<li>
+						<a href="javascript:;">网站导航</a>
+					</li>
+					<li class="vertical"></li>
+					<li>
+						<a href="javascript:;">手机京东</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="part_two">
+			<div class="container">
+				<div class="logo">
+					<img src="img/16.jpg" />
+					<div id="jd_classify" class="logo_first" name="show_hide">
+						<div class="all_classify">
+							全部分类
+							<i class="iconfont">&#xe613;</i>
+						</div>
+						<div id="jd_classify_items" class="logo_second" style="display: none;">
+							<h3>家用电器</h3>
+							<ul>
+								<li>
+									<a href="javascript:;">手机</a>
+								</li>
+								<li>
+									<a href="javascript:;">运营商</a>
+								</li>
+								<li>
+									<a href="javascript:;">数码</a>
+								</li>
+								<li>
+									<a href="javascript:;">电脑</a>
+								</li>
+								<li>
+									<a href="javascript:;">办公</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="inputs">
+					<div id="search_hide" class="inputs_hide" style="display: none;">
+						<p>
+							阿迪达斯
+							<span>约3782142个商品</span>
+						</p>
+						<p>
+							a2
+							<span>约547825个商品</span>
+						</p>
+						<p>
+							a4纸
+							<span>约3782142个商品</span>
+						</p>
+						<p>
+							安踏
+							<span>约84654142个商品</span>
+						</p>
+						<p>
+							aj
+							<span>约3782142个商品</span>
+						</p>
+						<p>
+							安幕兮
+							<span>约3782142个商品</span>
+						</p>
+						<p>
+							adidas
+							<span>约3782142个商品</span>
+						</p>
+						<p>
+							安耐晒
+							<span>约3782142个商品</span>
+						</p>
+						<p>
+							a9
+							<span>约3782142个商品</span>
+						</p>
+						<p>
+							aj11
+							<span>约3782142个商品</span>
+						</p>
+						<p>
+							airpods2
+							<span>约3782142个商品</span>
+						</p>
+						<p>
+							airpods
+							<span>约3782142个商品</span>
+						</p>
+					</div>
+					<div class="inputs_search">
+						<input id="txtSearch" type="text" class="text" />
+						<div class="btn1">搜全站</div>
+						<div class="btn2">搜本站</div>
+					</div>
+					<div class="inputs_word clearfix">
+						<a href="javascipt:;">洗衣机</a>
+						<a href="javascipt:;">洗烘一体</a>
+						<a href="javascipt:;">烘干机</a>
+						<a href="javascipt:;">母婴洗衣机</a>
+						<a href="javascipt:;">格力晶弘</a>
+					</div>
+				</div>
+				<div id="jd_shopping" class="shopping" name="show_hide">
+					<div class="shopping_show">
+						<i class="iconfont">&#xe600;</i>
+						<a href="javascript:;">我的购物车</a>
+					</div>
+					<div id="jd_shopping_items" class="shopping_hide" style="display: none;">
+						<div class="hide_font">
+							<i class="iconfont">&#xe600;</i> 购物车中还没有商品，赶紧选购吧!
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="part_three">
+			<div class="pattern_first">
+				<a href="javascript:;">店内所有商品</a>
+			</div>
+			<div class="pattern_second">
+				<ul>
+					<li>
+						<a href="javascript:;">首页</a>
+					</li>
+					<li>
+						<a href="javascript:;">冰洗大促</a>
+					</li>
+					<li>
+						<a href="javascript:;">冰箱</a>
+					</li>
+					<li>
+						<a href="javascript:;">冷柜</a>
+					</li>
+					<li>
+						<a href="javascript:;">滚筒洗衣机</a>
+					</li>
+					<li>
+						<a href="javascript:;">全自动波轮</a>
+					</li>
+					<li>
+						<a href="javascript:;">双桶半自动</a>
+					</li>
+					<li>
+						<a href="javascript:;">免污专区</a>
+					</li>
+					<li>
+						<a href="javascript:;">选购指南</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="part_four">
+			<div class="container">
+				<div class="crumb">
+					<ul class="clearfix">
+						<li>
+							<a href="javascript:;">家用电器</a>
+						</li>
+						<li><i class="iconfont">&#xe65c;</i></li>
+						<li>
+							<a href="javascript:;">大家电</a>
+						</li>
+						<li><i class="iconfont">&#xe65c;</i></li>
+						<li>
+							<a href="javascript:;">冰箱</a>
+						</li>
+						<li><i class="iconfont">&#xe65c;</i></li>
+						<li id="tcl" class="crumb_a" name="show_hide">
+							<div class="electrical">
+								<a href="javascript:;">TCL<i class="iconfont">&#xe674;</i></a>
+							</div>
+							<div id="tcl_items" class="crumb_hide" style="display: none;">
+								<ul class="bk_list clearfix">
+									<li>
+										<img src="img/17.jpg" />
+										<a href="javascript:;">TCL 118升小型双门电冰箱LED照明迷你节能办公居家便捷之选环保内胆(芭蕾白)BCD -118KA9</a>
+										<span>￥698.00</span>
+									</li>
+									<li>
+										<img src="img/18.jpg" />
+										<a href="javascript:;">TCL 205升 三门电冰箱 中门宽幅变温 软冷冻即切即用 节能养鲜HIPS环保内胆（星空银） BCD-205TF1</a>
+										<span>￥1099.00</span>
+									</li>
+									<li>
+										<img src="img/19.jpg" />
+										<a href="javascript:;">TCL 499升 风冷无霜对开门双门电冰箱 隐形电脑控温 纤薄机身(流光金) BCD-499WEF19</a>
+										<span>￥1999.00</span>
+									</li>
+								</ul>
+								<div></div>
+								<ul class="br_list clearfix">
+									<li>
+										<a href="javascript:;">海尔(Haier)</a>
+									</li>
+									<li>
+										<a href="javascript:;">美的(Midea)</a>
+									</li>
+									<li>
+										<a href="javascript:;">容声(Ronshen)</a>
+									</li>
+									<li>
+										<a href="javascript:;">康佳(KONKA)</a>
+									</li>
+									<li>
+										<a href="javascript:;">TCL</a>
+									</li>
+									<li>
+										<a href="javascript:;">美菱(MeiLing)</a>
+									</li>
+									<li>
+										<a href="javascript:;">创维(Skyworth)</a>
+									</li>
+									<li>
+										<a href="javascript:;">西门子(SIEMENS)</a>
+									</li>
+									<li>
+										<a href="javascript:;">海信(Hisense)</a>
+									</li>
+									<li>
+										<a href="javascript:;">更多>></a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li><i class="iconfont">&#xe65c;</i></li>
+						<li>
+							<a href="javascript:;">TCLBCD-318WEZ50</a>
+						</li>
+					</ul>
+
+				</div>
+				<div class="contact">
+					<ul class="clearfix">
+						<li><i class="iconfont i1">&#xe673;</i>
+							<a href="javascript:;">TCL冰箱洗衣机京东自营旗舰店</a>
+						</li>
+						<li><i class="iconfont i2">&#xe646;</i>
+							<a href="javascript:;">联系客服</a>
+						</li>
+						<li><i class="iconfont i3">&#xe60c;</i>
+							<a href="javascript:;">关注店铺</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="part_five">
+			<div class="container clearfix">
+				<div class="preview">
+					<div class="imgContainer">
+						<img id="mediumImg" src="img/20-m.jpg" />
+						<span id="mask" class="yelloBlock" style="display: none;"></span>
+						<span id="maskTop" class="face"></span>
+						<span id="largeImgContainer" class="largeImg" style="display: none;">
+							<img id="bigImg"/>
+						</span>
+					</div>
+					<div id="preview_as" class="preview_first clearfix">
+						<a href="javascript:;" class="backward_disabled iconfont">
+							<</a>
+								<a href="javascript:;" class="forward iconfont">></a>
+								<div class="imgs">
+									<ul id="icon_list" class="clearfix">
+										<li>
+											<img src="img/20.jpg" />
+										</li>
+										<li>
+											<img src="img/21.jpg" />
+										</li>
+										<li>
+											<img src="img/22.jpg" />
+										</li>
+										<li>
+											<img src="img/23.jpg" />
+										</li>
+										<li>
+											<img src="img/24.jpg" />
+										</li>
+										<li>
+											<img src="img/25.jpg" />
+										</li>
+										<li>
+											<img src="img/26.jpg" />
+										</li>
+										<li>
+											<img src="img/27.jpg" />
+										</li>
+										<li>
+											<img src="img/28.jpg" />
+										</li>
+										<li>
+											<img src="img/29.jpg" />
+										</li>
+									</ul>
+								</div>
+					</div>
+					<div class="info">
+						<a href="javascript:;">
+							<i class="iconfont">&#xe60c;</i> 关注
+						</a>
+						<a href="javascript:;">
+							<i class="iconfont">&#xe614;</i> 对比
+						</a>
+					</div>
+				</div>
+				<div class="introduced">
+					<div class="introduced_first">
+						TCL 318升 风冷无霜法式多门电冰箱 电脑控温 独立三温区 中门宽幅变温 （流光金） BCD-318WEZ50
+					</div>
+					<div class="introduced_second">
+						【523TCL巅峰狂欢趴，价保618抢购价1999】享6/12期白条免息！风冷无霜，免去除霜烦恼
+						<a href="javascript:;">更多优惠</a>
+					</div>
+					<div class="introduced_third">
+						<div class="price clearfix">
+							<h3>京东价</h3>
+							<span class="price_on">￥2199.00</span>
+							<span class="price_up">预约说明</span>
+						</div>
+						<div class="promote">
+							<h3>促销</h3>
+							<div class="promote_first">
+								<span>赠品</span>
+								<a href="javascript:;">
+									<img src="img/30.jpg" />
+									<em>x1</em>
+									<em>(赠完为止)</em>
+								</a>
+							</div>
+							<div class="promote_second">
+								<span>限购</span>
+								<span>跨自营/店铺满减</span>
+								<span>满减</span>
+								<i class="iconfont">&#xe674;</i>
+								<a href="javascript:;">展开促销</a>
+							</div>
+						</div>
+					</div>
+					<div class="introduced_fourth">
+						<h3>PLUS礼包</h3>
+						<a href="javascript:;" class="introduced_a1">PLUS</a>
+						<span>开通PLUS年卡，立享价值140元全品类券礼包</span>
+						<a href="javascript:;" class="introduced_a2">详情>></a>
+					</div>
+					<div class="introduced_fifth">
+						<h3>增值业务</h3>
+						<a href="javascript:;">家电回收,以旧换新</a>
+					</div>
+					<div class="introduced_sixth clearfix">
+						<div class="sixth1 clearfix">
+							<h3>配送至</h3>
+							<div id="jd_post" class="post" name="show_hide">
+								<div class="inside">
+									<a href="javascript:;">山东济宁市高新区<i class="iconfont">&#xe674;</i></a>
+								</div>
+								<div id="jd_post_items" class="sixth_hide" style="display: none;">
+									<ul id="address_information" class="hide_adr clearfix">
+										<li class="current">
+											<a href="javascript:;">山东</a>
+											<i class="iconfont">&#xe674;</i>
+										</li>
+										<li>
+											<a href="javascript:;">济宁市</a>
+											<i class="iconfont">&#xe674;</i>
+										</li>
+										<li>
+											<a href="javascript:;">高新区</a>
+											<i class="iconfont">&#xe674;</i>
+										</li>
+									</ul>
+									<ul class="all_first clearfix" style="display: block;">
+										<li>
+											<a href="javascript:;">北京</a>
+										</li>
+										<li>
+											<a href="javascript:;">上海</a>
+										</li>
+										<li>
+											<a href="javascript:;">天津</a>
+										</li>
+										<li>
+											<a href="javascript:;">重庆</a>
+										</li>
+										<li>
+											<a href="javascript:;">河北</a>
+										</li>
+										<li>
+											<a href="javascript:;">山西</a>
+										</li>
+										<li>
+											<a href="javascript:;">河南</a>
+										</li>
+										<li>
+											<a href="javascript:;">辽宁</a>
+										</li>
+										<li>
+											<a href="javascript:;">山东</a>
+										</li>
+										<li>
+											<a href="javascript:;">安徽</a>
+										</li>
+										<li>
+											<a href="javascript:;">浙江</a>
+										</li>
+										<li>
+											<a href="javascript:;">福建</a>
+										</li>
+										<li>
+											<a href="javascript:;">湖北</a>
+										</li>
+										<li>
+											<a href="javascript:;">湖南</a>
+										</li>
+										<li>
+											<a href="javascript:;">广东</a>
+										</li>
+									</ul>
+									<ul class="all_first clearfix" style="display: none;">
+										<li>
+											<a href="javascript:;">济南市</a>
+										</li>
+										<li>
+											<a href="javascript:;">青岛市</a>
+										</li>
+										<li>
+											<a href="javascript:;">淄博市</a>
+										</li>
+										<li>
+											<a href="javascript:;">枣庄市</a>
+										</li>
+										<li>
+											<a href="javascript:;">济宁市</a>
+										</li>
+										<li>
+											<a href="javascript:;">东营市</a>
+										</li>
+										<li>
+											<a href="javascript:;">潍坊市</a>
+										</li>
+										<li>
+											<a href="javascript:;">烟台市</a>
+										</li>
+										<li>
+											<a href="javascript:;">威海市</a>
+										</li>
+										<li>
+											<a href="javascript:;">莱芜市</a>
+										</li>
+										<li>
+											<a href="javascript:;">德州市</a>
+										</li>
+										<li>
+											<a href="javascript:;">临沂市</a>
+										</li>
+										<li>
+											<a href="javascript:;">聊城市</a>
+										</li>
+										<li>
+											<a href="javascript:;">日照市</a>
+										</li>
+										<li>
+											<a href="javascript:;">泰安市</a>
+										</li>
+									</ul>
+									<ul class="all_first clearfix" style="display: none;">
+										<li>
+											<a href="javascript:;">梁山县</a>
+										</li>
+										<li>
+											<a href="javascript:;">兖州区</a>
+										</li>
+										<li>
+											<a href="javascript:;">微山县</a>
+										</li>
+										<li>
+											<a href="javascript:;">汶上县</a>
+										</li>
+										<li>
+											<a href="javascript:;">泗水县</a>
+										</li>
+										<li>
+											<a href="javascript:;">嘉祥县</a>
+										</li>
+										<li>
+											<a href="javascript:;">鱼台县</a>
+										</li>
+										<li>
+											<a href="javascript:;">金乡县</a>
+										</li>
+										<li>
+											<a href="javascript:;">任城区</a>
+										</li>
+										<li>
+											<a href="javascript:;">邹城区</a>
+										</li>
+										<li>
+											<a href="javascript:;">市中区</a>
+										</li>
+										<li>
+											<a href="javascript:;">曲阜市</a>
+										</li>
+										<li>
+											<a href="javascript:;">高新区</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<span>有货,仅剩一件</span>
+						</div>
+						<div class="sixth2">
+							<span>支持</span>
+							<a href="javascript:;">京准达</a>
+							<a href="javascript:;">大件211</a>
+							<a href="javascript:;">99元免基础运费</a>
+							<a href="javascript:;">货到付款</a>
+						</div>
+						<div class="sixth3">
+							<p>由<span>京东</span>发货,并提供售后服务23:00点前下单,预计<em>明天(05月27日)</em>送达</p>
+						</div>
+					</div>
+					<div class="introduced_seventh clearfix">
+						<h3>重量</h3>
+						<span>不计重量</span>
+					</div>
+					<div class="introduced_eighth">
+						<h3>选择颜色</h3>
+						<div class="eighth_first">
+							<a href="javascript:;">
+								<img src="img/35.jpg" />
+								<span>282升爆款法式多门</span>
+							</a>
+							<a href="javascript:;">
+								<img src="img/36.jpg" />
+								<span>285升法式变频多门</span>
+							</a>
+							<a href="javascript:;" class="door">
+								<img src="img/37.jpg" />
+								<span>285升风冷无双多门</span>
+							</a>
+						</div>
+					</div>
+					<div class="introduced_ninth clearfix">
+						<div id="addSubtract" class="ninth_first">
+							<input type="text" value="1" />
+							<a href="javascript:;">+</a>
+							<a href="javascript:;">-</a>
+						</div>
+						<div id="defray" class="ninth_second">
+							<a href="javascript:;">支付定金</a>
+						</div>
+						<span id="share">
+							<i class="iconfont">&#xe624;</i>
+							分享
+						</span>
+					</div>
+					<div class="introduced_tenth clearfix">
+						<h3>本地活动</h3>
+						<a href="javascript:;">家电618企采狂欢>></a>
+					</div>
+				</div>
+				<div class="broadside">
+					<img src="img/31.jpg" />
+					<h3>店长推荐</h3>
+					<div id="coke" class="broadside_first">
+						<ul>
+							<li>
+								<a href="javascript:;">
+									<img src="img/32.jpg" />
+									<p>TCL 260升风冷无霜电冰箱 大冷冻三循环 电脑温控 一体成型机身（典雅银）BCD-260TWZ50</p>
+									<span>￥1998.00</span>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;">
+									<img src="img/33.jpg" />
+									<p>TCL 480升 双变频十字对开多门冰箱 风冷无霜 电脑控温 AAT养鲜 魔幻空间（典雅银）BCD-480WEPZ50</p>
+									<span>￥2998.00</span>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;">
+									<img src="img/34.jpg" />
+									<p>TCL 8.5公斤 洗烘一体变频滚筒洗衣机洗烘一体机 羽绒服洗 超薄 烘干洗衣机 婴儿洗 除螨 XQG85-F14303HBDP</p>
+									<span>￥2199.00</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div id="boke" class="broadside_second">
+						<a href="javascript:;" class="iconfont">
+							&#xe613;
+						</a>
+						<a href="javascript:;" class="iconfont">
+							&#xe674;
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="toEnter" class="enter" style="display: none;">
+			<div class="peak">
+				<span>您尚未登录</span>
+				<i class="iconfont">&#xe608;</i>
+			</div>
+			<div class="central">
+				<div class="central_first">
+					<p><i class="iconfont">&#xe625;</i>京东不会以任何理由要求您转账汇款,谨防诈骗。</p>
+				</div>
+				<div id="login" class="switch clearfix">
+					<div class="sweep">
+						<a href="javascript:;" class="switch_a">扫码登录</a>
+					</div>
+					<div class="account">
+						<a href="javascript:;">账户登录</a>
+					</div>
+				</div>
+				<div id="first_login" class="central_second">
+					<div class="code">
+						<img src="img/38.png" />
+					</div>
+					<div class="titles">
+						打开<span>手机京东</span>扫码二维码
+					</div>
+					<ul class="prompt">
+						<li>
+							<i class="iconfont">&#xe672;</i>
+							<span>免输入</span>
+						</li>
+						<li>
+							<i class="iconfont">&#xe799;</i>
+							<span>更快</span>
+						</li>
+						<li>
+							<i class="iconfont">&#xe615;</i>
+							<span>更安全</span>
+						</li>
+					</ul>
+				</div>
+				<div id="second_login" class="page_second" style="display: none;">
+					<div class="username">
+						<label class="iconfont">&#xe655;</label>
+						<input type="text" placeholder="邮箱/用户名/已验证手机" />
+					</div>
+					<div class="passwd">
+						<label class="iconfont">&#xe6a0;</label>
+						<input type="password" placeholder="密码" />
+					</div>
+					<div class="forget">
+						<a href="javascript:;">忘记密码</a>
+					</div>
+					<div class="login_btn">
+						<a href="javascript:;">登录</a>
+					</div>
+				</div>
+				<div class="central_third clearfix">
+					<a href="javascript:;">
+						<i class="iconfont">&#xe601;</i>
+						<span>QQ</span>
+					</a>
+					<a href="javascript:;">
+						<i class="iconfont">&#xe73b;</i>
+						<span>微信</span>
+					</a>
+					<p>
+						<i class="iconfont">&#xe630;</i> 立即注册
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="part_six">
+			<div class="container clearfix">
+				<h3>预售流程</h3>
+				<div class="process">
+					<i class="iconfont">&#xe606;</i>
+					<dl>
+						<dt>1.支付定金</dt>
+						<dd>2019-05-28 00:00:00-2019-05-31 23:30:00</dd>
+					</dl>
+				</div>
+				<div class="process">
+					<i class="iconfont">&#xe62e;</i>
+					<dl>
+						<dt>2.支付尾款<em>在我的订单完成</em></dt>
+						<dd>2019-06-01 00:00:00-2019-06-02 00:00:00</dd>
+					</dl>
+				</div>
+				<div class="process">
+					<i class="iconfont">&#xe6d5;</i>
+					<dl>
+						<dt>3.商品发货</dt>
+						<dd>预计2019-06-02 00时开始发货</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/jquery-1.10.1.js"></script>
+		<script src="js/app.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>
